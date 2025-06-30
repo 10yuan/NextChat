@@ -1,5 +1,14 @@
 {
     "github": {
         "silent": true
+    },
+    "functions": {
+        "app/api/**/*.ts": {
+            "maxDuration": 60
+        },
+        "app/api/**/*.js": {
+            "maxDuration": 60
+        }
     }
 }
+
